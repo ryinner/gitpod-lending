@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/fonts.css">
+  <link rel="stylesheet" href="/assets/styles/master.css">
+  <title>First task</title>
+</head>
+
+<body>
+  <header class="header">
+    <picture>
+      <img src="/assets/images/logo.svg" alt="Logo">
+    </picture>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#" class="nav-link">Features</a></li>
+        <li><a href="#" class="nav-link">Pricing</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">Docs</a></li>
+        <li><a href="#" class="nav-link">Changelog</a></li>
+        <li><a href="#" class="nav-link">We're hiring</a></li>
+      </ul>
+    </nav>
+    <a class="link-login">Login</a>
+  </header>
+  <main class="content">
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-heading">
+          <p>Aloways</p>
+          <p>Ready to Code.</p>
+        </h1>
+        <div class="hero-description">
+          <p>Spin up fresh, automated dev environments</p>
+          <p>for each task, in the cloud, in seconds.</p>
+        </div>
+        <div class="hero-controls">
+          <div class="hero-links">
+            <a href="#" class="hero-link">Try Now</a>
+            <div class="hero-social">
+              <a href="#" class="hero-social-link"><img src="/assets/images/gitlab.svg" alt="gitlab"></a>
+              <a href="#" class="hero-social-link"><img src="/assets/images/github.svg" alt="github"></a>
+              <a href="#" class="hero-social-link"><img src="/assets/images/smth.svg" alt="smth"></a>
+            </div>
+          </div>
+          <div class="hero-git">
+            <p>Open a workspace.</p>
+            <p>Start from any Git context.</p>
+          </div>
+        </div>
+      </div>
+      <picture class="hero-image">
+        <img src="/assets/images/hero.png" alt="">
+      </picture>
+    </section>
+    <section class="slogan">
+      <p class="slogan-paragraph">
+        Select project,
+      </p>
+      <p class="slogan-paragraph">
+        check dependencies, checkout branch, view
+        readme.txt, install tools, run build, run test,
+      </p>
+      <p class="slogan-paragraph">
+        start coding.
+      </p>
+    </section>
+    <section class="ci-cd">
+      <div class="ci-cd-text">
+        <h2 class="ci-cd-heading">Think CI/CD for dev environments</h2>
+        <p class="ci-cd-description">
+          We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.
+        </p>
+        <div class="ci-cd-links">
+          <a href="#" class="ci-cd-link">More on prebuilds</a>
+          <a href="#" class="ci-cd-link">Documentation</a>
+        </div>
+      </div>
+      <picture class="ci-cd-example">
+        <img src="/assets/images/ci-cd.png" alt="ci cd code example">
+      </div>
+    </section>
+    <section class="remote">
+      <h2 class="remote-heading">Remote-first. Secure by design.</h2>
+      <picture class="remote-image">
+        <img src="/assets/images/remote.png" alt="remote code example">
+      </picture>
+      <p class="remote-description">
+        You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.
+      </p>
+      <div class="remote-extensions">
+        <a href="#"><img src="/assets/images/chrome-extension.png" alt="google chrome extension"></a>
+        <a href="#"><img src="/assets/images/firefox-extension.png" alt="firefox extension"></a>
+      </div>
+    </section>
+    <section class="rewiews">
+      <h2 class="rewiews-heading">Used by 400,000+ developers.</h2>
+      <ul class="rewiews-list">
+        <li class="rewiews-item">
+          <article class="rewiews-element">
+            <p class="reiews-text">GitPod is incredibly cool.</p>
+            <p class="reiews-text">In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+            <div class="rewiews-user">
+              <picture>
+                <img src="/assets/images/user-1.png" alt="Ben Halpern">
+              </picture>
+              <div class="reiews-user-info">
+                <h2 class="reiews-user-name">Ben Halpern</h2>
+                <p class="reiews-user-post">Creator and Co-founder <strong>@forem</strong> and <strong>@ThePracticalDev</strong></p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="rewiews-item">
+          <article class="rewiews-element">
+            <p class="reiews-text">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.</p>
+            <p class="reiews-text">Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+            <div class="rewiews-user">
+              <picture>
+                <img src="/assets/images/user-2.png" alt="Ben Halpern">
+              </picture>
+              <div class="reiews-user-info">
+                <h2 class="reiews-user-name">Michael Friedrich</h2>
+                <p class="reiews-user-post">Developer Evangelist <strong>@GitLab</strong></p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="rewiews-item">
+          <article class="rewiews-element">
+            <p class="reiews-text">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+            <div class="rewiews-user">
+              <picture>
+                <img src="/assets/images/user-3.png" alt="Ben Halpern">
+              </picture>
+              <div class="reiews-user-info">
+                <h2 class="reiews-user-name">Julius Volz</h2>
+                <p class="reiews-user-post">Creator <strong>@PrometheusIO</strong></p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="rewiews-item">
+          <article class="rewiews-element">
+            <p class="reiews-text">I think I’m in love with @gitpod. It’s such a powerful tool. I’ve learned so much in the past week just from stumbling across Github repos that interest me and appending “http://gitpod.io/#” to the URL. A+ tool all around.</p>
+            <div class="rewiews-user">
+              <picture>
+                <img src="/assets/images/user-4.png" alt="Ben Halpern">
+              </picture>
+              <div class="reiews-user-info">
+                <h2 class="reiews-user-name">David Ressler</h2>
+                <p class="reiews-user-post">Engineering Manager <strong>@PrometheusIO</strong></p>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <section class="brands">
+      <picture>
+        <img src="/assets/images/brand-1.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-2.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-3.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-4.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-5.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-6.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-7.svg" alt="brand">
+      </picture>
+      <picture class="brands-pseudo-element">
+        <img src="/assets/images/brand-7.png" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-8.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-9.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-10.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-11.svg" alt="brand">
+      </picture>
+      <picture>
+        <img src="/assets/images/brand-12.png" alt="brand">
+      </picture>
+    </section>
+    <section class="start">
+      <h2 class="start-heading">Get started now</h2>
+      <div class="start-content">
+        <div class="start-connect">
+          <h3 class="start-connect-heading">Connect Git repository</h3>
+          <p class="start-connect-description">Select a Git provider to start with an existing project from any Git context.</p>
+          <div class="start-connect-links">
+            <a href="#" class="start-connect-link">
+              <picture>
+                <img src="/assets/images/gitlab-link.svg" alt="GitLab">
+              </picture>
+              <span>Continue with GitLab</span>
+            </a>
+            <a href="#" class="start-connect-link">
+              <picture>
+                <img src="/assets/images/github-link.svg" alt="GitHub">
+              </picture>
+              <span>Continue with GitHub</span>
+            </a>
+            <a href="#" class="start-connect-link">
+              <picture>
+                <img src="/assets/images/bitbucket-link.svg" alt="Bitbucket">
+              </picture>
+              <span>Continue with Bitbucket</span>
+            </a>
+          </div>
+          <p class="start-connect-post-script">
+            Or prefix any GitLab, GitHub or Bitbucket URL with
+          </p>
+          <div class="start-connect-tags">
+            <p class="start-connect-tag">gitpod.io/#</p>
+          </div>
+        </div>
+        <div class="start-lanch">
+          <h3 class="start-lanch-heading">Launch an example workspace</h3>
+          <p class="start-lanch-description">Dive into one of our example workspaces</p>
+          <ul class="start-lanch-examples">
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/ts.svg" alt="ts"></picture> Node or TypeScript
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/python.svg" alt="Python"></picture> Python
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/go.svg" alt="go"></picture> Go
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/rust.svg" alt="rust"></picture> Rust
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/java.svg" alt="java"></picture> Java
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+            <li class="start-lanch-example">
+              <div class="start-lanch-tehnology">
+                <picture><img src="/assets/images/swetle.svg" alt="swetle"></picture> Swetle
+              </div>
+              <a href="#" class="start-lanch-link">Launch workspace</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <nav class="footer-nav">
+      <section class="footer-nav-section">
+        <h2 class="footer-heading">GitPod</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Home</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Features</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Pricing</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Changelog</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Self-Hosted</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Gitpod vs GitHub Codespaces</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Status</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-nav-section">
+        <h2 class="footer-heading">Developer</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Getting started</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Screencasts</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Blog</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Documentation</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Report a bug</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Community</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-nav-section">
+        <h2 class="footer-heading">Company</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">About</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Careers</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Contact</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Media Kit</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-nav-section">
+        <h2 class="footer-heading">Legal</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Imprint</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Terms of Service</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#">Privacy Policy</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <hr class="footer-separator">
+    <div class="footer-copyright">
+      <div class="footer-copyright-info">
+        <picture>
+          <img src="/assets/images/logo-footer.svg" alt="logo">
+        </picture>
+        <span>Copyright © 2021Gitpod</span>
+      </div>
+      <div class="footer-copyright-social">
+        <a href="#" class="footer-copyright-link">
+          <picture>
+            <img src="/assets/images/social-1.svg" alt="twitter">
+          </picture>
+        </a>
+        <a href="#" class="footer-copyright-link">
+          <picture>
+            <img src="/assets/images/social-2.svg" alt="github">
+          </picture>
+        </a>
+        <a href="#" class="footer-copyright-link">
+          <picture>
+            <img src="/assets/images/social-3.svg" alt="what's up">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <aside class="cookies">
+    <div class="cookies-container">
+      <p class="cookies-text">This website uses cookies to enhance the user experience. Read our <a href="#" class="cookies-link">privacy police</a> for more info.</p>
+      <button class="cookies-btn">Accept Cookies</button>
+    </div>
+  </aside>
+  <!-- Вариант 4 https://www.figma.com/file/qdqYUt3AYbMvDWZsWFVz0f/Gitpod?type=design&node-id=1-2&mode=design&t=hNgBVIEVh9Dn2wzG-0 -->
+</body>
+
+</html>
