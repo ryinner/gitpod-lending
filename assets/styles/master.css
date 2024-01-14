@@ -13,7 +13,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   padding: 1.25rem 2rem;
 
@@ -28,17 +27,30 @@ body {
   gap: 3rem;
 
   font-size: 1rem;
+  line-height: 1.5rem;
+
+  margin-left: 17.75rem;
+  margin-top: -0.25rem;
 }
 
 .nav-link {
   color: #12100cb3;
   text-decoration: none;
   transition: 300ms ease-in color;
+  position: relative;
 }
 
 .nav-link:hover {
   color: #000;
   transition: 300ms ease-out color;
+}
+
+.nav-link-star {
+  color: #FF8A00;
+  font-size: 0.75rem;
+  position: absolute;
+  right: -12px;
+  top: -14px;
 }
 
 .link-login {
@@ -56,10 +68,13 @@ body {
   background: #12100C;
 
   text-decoration: none;
+
+  margin-left: auto;
+  margin-top: -0.25rem;
 }
 
 .content {
-  padding: 4.06rem;
+  padding: 0 4.06rem;
   display: flex;
   flex-direction: column;
 
@@ -71,7 +86,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8.12rem;
-  margin: 0 auto;
+  margin: 2.1rem 0 0;
 }
 
 .hero-heading {
@@ -122,10 +137,12 @@ body {
   gap: 1.81rem;
 
   margin-top: 1.12rem;
+  margin-left: 0.5rem;
 }
 
 .hero-image {
   display: flex;
+  transform: translate(8px, 13px);
 }
 
 .hero-image img {
@@ -133,14 +150,15 @@ body {
 }
 
 .slogan {
-  margin-top: 11rem;
+  margin-top: 12rem;
   text-align: center;
+
+  transform: translateY(-1px);
 }
 
 .slogan-paragraph {
   font-size: 3.375rem;
   line-height: 3.9825rem;
-  font-weight: 700;
   color: #999795;
   text-decoration-line: line-through;
   text-decoration-style: solid;
@@ -148,20 +166,17 @@ body {
 }
 
 .slogan-paragraph:first-child, .slogan-paragraph:last-child {
+  font-weight: 700;
   color: #12100C;
   text-decoration-line: none;
 }
 
 .ci-cd {
-  margin-top: 21.19rem;
+  margin-top: 20.75rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(41rem, 1fr) 1fr;
   align-items: center;
   gap: 4.56rem;
-}
-
-.ci-cd-text {
-  flex: 1 0;
 }
 
 .ci-cd-heading {
@@ -179,7 +194,7 @@ body {
 }
 
 .ci-cd-links {
-  margin-top: 9.44rem;
+  margin-top: 10.1rem;
 }
 
 .ci-cd-link {
@@ -187,23 +202,23 @@ body {
   border-radius: 0.65625rem;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
   font-weight: 700;
-
+  font-size: 0.875rem; 
   text-decoration: none;
+  padding: 0.52rem 1.46rem;
 }
 
 .ci-cd-link:first-child {
-  padding: 0.44rem 1.12rem 0.56rem 1.13rem;
   background-color: #FFAE33;
 }
 
 .ci-cd-link:last-child {
-  padding: 0.44rem 1.5rem 0.56rem;
   background-color: #FFB0AE;
-  margin-left: 1rem;
+  margin-left: 0.9rem;
 }
 
 .ci-cd-example {
   display: flex;
+  transform: translate(-5px, 5px);
 }
 
 .ci-cd-example img {
@@ -211,7 +226,7 @@ body {
 }
 
 .remote {
-  margin-top: 21.06rem;
+  margin-top: 22rem;
 }
 
 .remote-heading {
@@ -224,6 +239,8 @@ body {
 .remote-image {
   display: flex;
   margin: 2rem auto 0;
+
+  transform: translateX(-5px);
 }
 
 .remote-image img {
@@ -231,13 +248,15 @@ body {
 }
 
 .remote-description {
-  margin: 2rem auto 0;
+  margin: 1.4rem auto 0;
 
   color: #12100cb3;
   font-size: 1.5rem;
   line-height: 1.995rem;
 
   text-align: center;
+
+  font-weight: 400;
 
   max-width: 54.8125rem;
 }
@@ -252,7 +271,7 @@ body {
 }
 
 .rewiews {
-  margin-top: 11rem;
+  margin-top: 10.5rem;
   overflow: hidden;
 }
 
@@ -279,8 +298,7 @@ body {
 .rewiews-element {
   border-radius: 1rem;
   background: #FFF;
-  padding: 1.5rem;
-
+  padding: 1.5rem 1.7rem 1.5rem 1.5rem
 }
 
 .reiews-text {
@@ -291,11 +309,11 @@ body {
 }
 
 .reiews-text:not(:first-child) {
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 .rewiews-user {
-  margin-top: 0.88rem;
+  margin-top: 0.9rem;
 
   display: flex;
   align-items: flex-start;
@@ -306,19 +324,21 @@ body {
   color: #12100C;
   font-weight: 700;
   font-size: 1rem;
+
+  margin-top: 0.2rem;
 }
 
 .reiews-user-post {
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   line-height: 1.5rem;
   font-size: 1rem;
   color: #12100C;
 }
 
 .brands {
-  margin-top: 7.94rem;
+  margin-top: 6.2rem;
   display: flex;
-  padding: 0 7.69rem;
+  margin-left: 5.6rem;
 
   display: flex;
   align-items: center;
@@ -487,7 +507,7 @@ body {
 }
 
 .footer-nav {
-  padding: 2.94rem 1.5rem 3rem;
+  padding: 3rem 16rem;
 
   display: flex;
   justify-content: space-between;
@@ -529,8 +549,7 @@ body {
 }
 
 .footer-copyright {
-  margin-top: 2rem;
-  padding-bottom: 2.12rem;
+  padding: 2.1rem 16rem 2.12rem;
 
   display: flex;
   justify-content: space-between;
@@ -555,8 +574,6 @@ body {
 }
 
 .cookies {
-  padding: 0.75rem 1rem;
-
   background-color: #ECE7E5;
 }
 
@@ -564,6 +581,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
 }
 
 .cookies-text {
@@ -580,7 +601,7 @@ body {
   border-radius: 0.5rem;
   background-color: #F9F9F9;
 
-  padding: 0.25rem 1.5rem;
+  padding: 0.35rem 1.8rem;
 
   outline: none;
   border: none;
