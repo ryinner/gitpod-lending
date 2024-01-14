@@ -73,6 +73,11 @@ body {
   margin-top: -0.25rem;
 }
 
+.burger {
+  display: none;
+
+}
+
 .content {
   padding: 0 4.06rem;
   display: flex;
@@ -610,13 +615,71 @@ body {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 375px) {
+  .hero-controls {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ci-cd-links {
+    margin-top: 5rem;
+  }
+
+  .slogan-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .start-connect, .start-lanch {
+    padding: 1.5rem;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-heading,  .hero-description, .ci-cd-heading, .ci-cd-description {
+    text-align: center;
+  }
+  .slogan, .ci-cd, .remote, .rewiews, .brands, .start, .footer {
+    margin-top: 5rem;
+  }
+
+  .ci-cd-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .remote-extensions {
+    flex-direction: column;
+  }
+
+  .start-content {
+    grid-template-columns: 1fr;
+  }
+
+  .cookies-container {
+    padding: 0.5rem 0.25rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .content {
       padding: 0.25rem;
     }
 
+    .brands {
+      margin-left: 0;
+    }
+
     .footer {
-      padding: 0;
+      padding: 0 1rem;
     }
 
     .cookies {
@@ -626,4 +689,61 @@ body {
     .cookies-text {
       font-size: 0.75rem;
     }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .link-login {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .hero-heading {
+    font-size: 4.5rem;
+  }
+
+  .hero-link {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .ci-cd {
+    grid-template-columns: 1fr;
+  }
+
+  .ci-cd-example {
+    display: none;
+  }
+
+  .brands-pseudo-element {
+    display: none;
+  }
+
+  .start-lanch-tehnology {
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .start-lanch-link {
+    font-size: 0.7rem;
+    text-align: center;
+  } 
+
+  .footer-nav {
+    padding: 3rem 0;
+  }
+
+  .footer-copyright {
+    padding: 3rem 0;
+  }
 }
