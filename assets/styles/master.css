@@ -13,6 +13,7 @@ body {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   padding: 1.25rem 2rem;
 
@@ -29,7 +30,6 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
 
-  margin-left: 17.75rem;
   margin-top: -0.25rem;
 }
 
@@ -38,6 +38,7 @@ body {
   text-decoration: none;
   transition: 300ms ease-in color;
   position: relative;
+  flex-shrink: 0;
 }
 
 .nav-link:hover {
@@ -69,7 +70,6 @@ body {
 
   text-decoration: none;
 
-  margin-left: auto;
   margin-top: -0.25rem;
 }
 
@@ -205,6 +205,10 @@ body {
   text-align: center;
 
   transform: translateY(-1px);
+}
+
+.slogan-heading {
+  display: none;
 }
 
 .slogan-paragraph {
