@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: 'Roboto';
-  background-color: #F5F3F4;
+  font-family: "Roboto";
+  background-color: #f5f3f4;
 }
 
 .header {
@@ -47,7 +47,7 @@ body {
 }
 
 .nav-link-star {
-  color: #FF8A00;
+  color: #ff8a00;
   font-size: 0.75rem;
   position: absolute;
   right: -12px;
@@ -65,8 +65,8 @@ body {
   outline: none;
   border: none;
 
-  color: #F9F9F9;
-  background: #12100C;
+  color: #f9f9f9;
+  background: #12100c;
 
   text-decoration: none;
 
@@ -110,7 +110,7 @@ body {
 }
 
 .burger-menu-link {
-  color: #12100cb3;;
+  color: #12100cb3;
   text-decoration: none;
   transition: 300ms ease-in color;
 }
@@ -141,7 +141,7 @@ body {
 }
 
 .hero-heading {
-  color: #12100C;
+  color: #12100c;
   font-size: 5rem;
   font-weight: 700;
   line-height: 5.5rem;
@@ -171,10 +171,10 @@ body {
 
 .hero-link {
   border-radius: 1rem;
-  background-color: #FFAE33;
+  background-color: #ffae33;
   box-shadow: 0px 1px 1px 0px #0000001a;
 
-  color: #12100C;
+  color: #12100c;
   font-size: 1.125rem;
   font-weight: 700;
   text-decoration: none;
@@ -221,9 +221,10 @@ body {
   font-weight: 400;
 }
 
-.slogan-paragraph:first-child, .slogan-paragraph:last-child {
+.slogan-paragraph:first-child,
+.slogan-paragraph:last-child {
   font-weight: 700;
-  color: #12100C;
+  color: #12100c;
   text-decoration-line: none;
 }
 
@@ -236,7 +237,7 @@ body {
 }
 
 .ci-cd-heading {
-  color: #12100C;
+  color: #12100c;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.5rem;
@@ -254,21 +255,21 @@ body {
 }
 
 .ci-cd-link {
-  color: #12100C;
+  color: #12100c;
   border-radius: 0.65625rem;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-  font-size: 0.875rem; 
+  font-size: 0.875rem;
   text-decoration: none;
   padding: 0.52rem 1.46rem;
 }
 
 .ci-cd-link:first-child {
-  background-color: #FFAE33;
+  background-color: #ffae33;
 }
 
 .ci-cd-link:last-child {
-  background-color: #FFB0AE;
+  background-color: #ffb0ae;
   margin-left: 0.9rem;
 }
 
@@ -286,7 +287,7 @@ body {
 }
 
 .remote-heading {
-  color: #12100C;
+  color: #12100c;
   text-align: center;
   font-size: 3.375rem;
   font-weight: 700;
@@ -333,7 +334,7 @@ body {
 
 .rewiews-heading {
   text-align: center;
-  color: #12100C;
+  color: #12100c;
   font-weight: 700;
   font-size: 3.375rem;
 }
@@ -353,14 +354,14 @@ body {
 
 .rewiews-element {
   border-radius: 1rem;
-  background: #FFF;
-  padding: 1.5rem 1.7rem 1.5rem 1.5rem
+  background: #fff;
+  padding: 1.5rem 1.7rem 1.5rem 1.5rem;
 }
 
 .reiews-text {
   font-size: 1rem;
   font-weight: 400;
-  color: #12100C;
+  color: #12100c;
   line-height: 1.5rem;
 }
 
@@ -377,7 +378,7 @@ body {
 }
 
 .reiews-user-name {
-  color: #12100C;
+  color: #12100c;
   font-weight: 700;
   font-size: 1rem;
 
@@ -388,7 +389,7 @@ body {
   margin-top: 0.6rem;
   line-height: 1.5rem;
   font-size: 1rem;
-  color: #12100C;
+  color: #12100c;
 }
 
 .brands {
@@ -418,7 +419,7 @@ body {
 .start-heading {
   font-size: 3.375rem;
   font-weight: 700;
-  color: #12100C;
+  color: #12100c;
   text-align: center;
 }
 
@@ -429,21 +430,24 @@ body {
   gap: 1.63rem;
 }
 
-.start-connect, .start-lanch {
-  background: #FFF;
+.start-connect,
+.start-lanch {
+  background: #fff;
   border-radius: 1.25rem;
 
   padding: 3.5rem;
 }
 
-.start-connect-heading, .start-lanch-heading {
+.start-connect-heading,
+.start-lanch-heading {
   text-align: center;
   font-size: 2rem;
-  color: #12100C;
+  color: #12100c;
   font-weight: 700;
 }
 
-.start-connect-description, .start-lanch-description {
+.start-connect-description,
+.start-lanch-description {
   text-align: center;
   color: #12100cb3;
   font-size: 1.5rem;
@@ -471,8 +475,7 @@ body {
   box-shadow: 0px 1px 1px 0px #0000001a;
   background: #000;
 
-
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
   font-size: 0.875rem;
   text-decoration: none;
@@ -481,11 +484,11 @@ body {
 }
 
 .start-connect-link:first-child {
-  background-color: #FC6D26;
+  background-color: #fc6d26;
 }
 
 .start-connect-link:last-child {
-  background-color: #2684FF;
+  background-color: #2684ff;
 }
 
 .start-connect-post-script {
@@ -512,7 +515,7 @@ body {
   color: #12100cb3;
 
   border-radius: 0.75rem;
-  background-color: #FFE4BC;
+  background-color: #ffe4bc;
 
   padding: 0 1rem;
 }
@@ -528,7 +531,7 @@ body {
 
 .start-lanch-example {
   border-radius: 0.75rem;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 
   padding: 0.94rem 1rem;
 
@@ -549,10 +552,10 @@ body {
   text-decoration: none;
 
   border-radius: 0.75rem;
-  background: #12100C;
+  background: #12100c;
   box-shadow: 0px 1px 1px 0px #0000001a;
 
-  color: #FFF;
+  color: #fff;
   font-size: 0.875rem;
   font-weight: 400;
 
@@ -563,7 +566,7 @@ body {
   margin-top: 10rem;
   padding: 0 16.87rem 0 16.88rem;
 
-  background-color: #F9F9F9
+  background-color: #f9f9f9;
 }
 
 .footer-nav {
@@ -574,7 +577,7 @@ body {
 }
 
 .footer-heading {
-  color: #12100C;
+  color: #12100c;
   font-size: 0.8125rem;
   font-weight: 700;
 }
@@ -604,7 +607,7 @@ body {
 
 .footer-separator {
   height: 1px;
-  background: #ECE7E5;
+  background: #ece7e5;
   border: none;
 }
 
@@ -620,7 +623,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 
-  color: #12100CB2;
+  color: #12100cb2;
   font-size: 0.8125rem;
 }
 
@@ -634,7 +637,7 @@ body {
 }
 
 .cookies {
-  background-color: #ECE7E5;
+  background-color: #ece7e5;
 }
 
 .cookies-container {
@@ -659,7 +662,7 @@ body {
 
 .cookies-btn {
   border-radius: 0.5rem;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 
   padding: 0.35rem 1.8rem;
 
@@ -676,16 +679,16 @@ body {
     flex-direction: column;
   }
 
+  .hero-image {
+    width: 300px;
+  }
+
   .ci-cd-links {
     margin-top: 5rem;
   }
 
   .slogan-paragraph {
     font-size: 2.5rem;
-  }
-
-  .start-connect, .start-lanch {
-    padding: 1.5rem;
   }
 
   .footer-nav {
@@ -698,10 +701,19 @@ body {
     flex-direction: column;
   }
 
-  .hero-heading,  .hero-description, .ci-cd-heading, .ci-cd-description {
+  .hero-heading,
+  .hero-description,
+  .ci-cd-heading,
+  .ci-cd-description {
     text-align: center;
   }
-  .slogan, .ci-cd, .remote, .rewiews, .brands, .start, .footer {
+  .slogan,
+  .ci-cd,
+  .remote,
+  .rewiews,
+  .brands,
+  .start,
+  .footer {
     margin-top: 5rem;
   }
 
@@ -715,31 +727,40 @@ body {
     flex-direction: column;
   }
 
+  .cookies-btn {
+    padding: 0.35rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 0.25rem;
+  }
+
+  .brands {
+    margin-left: 0;
+  }
+
+  .cookies {
+    padding: 0.5rem 0.25rem;
+  }
+
+  .cookies-text {
+    font-size: 0.75rem;
+  }
+
   .start-content {
     grid-template-columns: 1fr;
+  }
+
+  .start-connect,
+  .start-lanch {
+    padding: 1.5rem;
   }
 
   .cookies-container {
     padding: 0.5rem 0.25rem;
   }
-}
-
-@media screen and (max-width: 768px) {
-    .content {
-      padding: 0.25rem;
-    }
-
-    .brands {
-      margin-left: 0;
-    }
-
-    .cookies {
-      padding: 0.5rem 0.25rem;
-    }
-
-    .cookies-text {
-      font-size: 0.75rem;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -788,8 +809,10 @@ body {
   .start-lanch-link {
     font-size: 0.7rem;
     text-align: center;
-  } 
+  }
+}
 
+@media screen and (max-width: 1400px) {
   .footer {
     padding: 0 1rem;
   }
