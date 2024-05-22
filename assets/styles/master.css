@@ -85,8 +85,6 @@ body {
 }
 
 .burger-menu {
-  display: none;
-
   position: fixed;
   right: 0;
   top: 0;
@@ -96,9 +94,13 @@ body {
 
   padding: 1.6rem 2rem;
 
+  margin-right: -100%;
+
   box-shadow: -3px 3px 4px 0px #00001a33;
 
   background-color: #fff;
+
+  transition: 300ms ease-out all;
 }
 
 .burger-menu-nav {
@@ -121,7 +123,8 @@ body {
 }
 
 .burger-menu--active {
-  display: block;
+  margin-right: initial;
+  transition: 300ms ease-in all;
 }
 
 .content {
@@ -345,6 +348,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 1.5rem;
+  transition: 300ms all ease-in-out;
 }
 
 .rewiews-item {
@@ -671,6 +675,118 @@ body {
 
   color: #12100cb3;
   font-size: 1rem;
+}
+
+.modal {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: none;
+  position: fixed;
+}
+
+.modal--active {
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.555);
+}
+
+.modal-body {
+  position: relative;
+  z-index: 4;
+  width: 300px;
+  min-height: 300px;
+  background: #fff;
+}
+
+.modal-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.5rem 1rem;
+}
+
+.modal-heading-text {
+  gap: 0.4rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.modal-switcher-trigger {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #00000096;
+  font-size: inherit;
+}
+
+.modal-switcher-trigger--active {
+  color: #000;
+}
+
+.modal-switcher-separator {
+  user-select: none;
+}
+
+.modal-close {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  background: inherit;
+
+  font-size: 1.1rem;
+}
+
+.modal-content {
+  padding: 0.5rem 1rem;
+}
+
+.modal-switcher-content {
+  display: none;
+  flex-direction: column;
+}
+
+.modal-switcher-content--active {
+  display: flex;
+}
+
+.modal-input {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.modal-button {
+  padding: 0.3rem 0.5rem;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+.modal-button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 300ms ease-out;
+}
+
+.modal-input:not(:last-child) {
+  margin-bottom: 0.4rem;
 }
 
 @media screen and (max-width: 375px) {
