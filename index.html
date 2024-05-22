@@ -39,7 +39,7 @@
         <li><a href="#" class="nav-link">We're hiring <span class="nav-link-star">*</span></a></li>
       </ul>
     </nav>
-    <a class="link-login" href="#">Login</a>
+    <a class="link-login modal-trigger" href="#">Login</a>
     <img class="burger" src="assets/images/burger-menu.svg" alt="burger menu button">
   </header>
   <main class="content">
@@ -424,9 +424,40 @@
         <li><a href="#" class="burger-menu-link">Docs</a></li>
         <li><a href="#" class="burger-menu-link">Changelog</a></li>
         <li><a href="#" class="burger-menu-link">We're hiring</a></li>
-        <li><a href="#" class="burger-menu-link">Log in</a></li>
+        <li><a href="#" class="burger-menu-link modal-trigger">Log in</a></li>
       </ul>
     </nav>
+  </aside>
+  <aside class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-body">
+      <div class="modal-heading">
+        <div class="modal-heading-text">
+          <button class="modal-switcher-trigger modal-switcher-trigger--active" data-type="registration">Registration</button>
+          <div class="modal-switcher-separator">/</div>
+          <button class="modal-switcher-trigger" data-type="login">Log in</button>
+        </div>
+        <button class="modal-close">X</button>
+      </div>
+      <div class="modal-content">
+        <form action="#" data-type="registration" class="modal-switcher-content modal-switcher-content--active">
+          <input type="text" name="username" placeholder="Username" class="modal-input">
+          <input type="email" name="email" placeholder="Email" class="modal-input">
+          <input type="password" name="password" placeholder="Password" class="modal-input">
+          <input type="password" name="password" placeholder="Repeat password" class="modal-input">
+          <div>
+            <button class="modal-button" type="submit">Registration</button>
+          </div>
+        </form>
+        <form action="#" data-type="login" class="modal-switcher-content">
+          <input type="text" name="username" placeholder="Username" class="modal-input">
+          <input type="password" name="password" placeholder="Password" class="modal-input">
+          <div>
+            <button class="modal-button" type="submit">Log in</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </aside>
   <script src="assets/scripts/master.js"></script>
   <!-- Вариант 4 https://www.figma.com/file/qdqYUt3AYbMvDWZsWFVz0f/Gitpod?type=design&node-id=1-2&mode=design&t=hNgBVIEVh9Dn2wzG-0 -->
